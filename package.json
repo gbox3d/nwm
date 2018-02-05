@@ -1,0 +1,24 @@
+{
+  "name": "nwm",
+  "version": "1.0.0",
+  "description": "Node Webkit and Meteor",
+  "main": "http://localhost:3000",
+  "scripts": {
+    "start": "meteor npx nw --enable-logging=stderr .",
+    "debug" : "meteor npx nw --remote-debugging-port=9222",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbox3d/nwm.git"
+  },
+  "author": "topdown lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbox3d/nwm/issues"
+  },
+  "homepage": "https://github.com/gbox3d/nwm#readme",
+  "dependencies": {
+    "nw": "^0.28.0-sdk"
+  }
+}

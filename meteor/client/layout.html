@@ -1,0 +1,10 @@
+<head>
+  <title>Node Webkit and Meteor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<template name="layout">
+  {{> header}}
+  {{> Template.dynamic template=layout}}
+  {{> footer}}
+</template>
