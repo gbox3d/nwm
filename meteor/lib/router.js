@@ -25,3 +25,12 @@ FlowRouter.route('/exam-2', {
     });
   }
 });
+
+FlowRouter.route('/exam-3', {
+  name:'exam-3',
+  action: function () {
+    BlazeLayout.render('layout',{
+      layout : "exam_3_import"
+    });
+  }
+});

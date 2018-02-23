@@ -17,12 +17,12 @@ meteor npm install
 sdk 버전으로 설치되지 않았다면, 기본적인 바이너리는 디버깅창이 열리지 않는다. 개발용으로 사용하기 위해서는 디버깅용 바이너리를 설치해야한다.
 빌드타입이 normal,sdk,nacl 3가지가 있는데 그중에 sdk를 선택하여 설치한다.
 
-``` shell
+```shell
 meteor npm install nw --nwjs_build_type=sdk
 ```
 또는 
 
-``` shell
+```shell
 meteor npm install nw@0.28.0-sdk
 ```
 
