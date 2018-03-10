@@ -34,3 +34,12 @@ FlowRouter.route('/exam-3', {
     });
   }
 });
+
+FlowRouter.route('/exam-4', {
+  name:'exam-4',
+  action: function () {
+    BlazeLayout.render('layout',{
+      layout : "exam_4_canvas"
+    });
+  }
+});
