@@ -7,7 +7,7 @@ NodeJS Webkit and Meteor
 
 미티어관련정보 [https://docs.meteor.com/](https://docs.meteor.com/)
 
-깃에서 내려받음 다음 프로잭트 루트에서 다음과 같이 명령어 실행한다.
+깃에서 소스를 내려받은후 프로잭트폴더로 이동하여 다음과 같이 명령어 실행한다.
 ```shell
 meteor npm install
 ```
