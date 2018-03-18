@@ -1,5 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+//import {THREE} from './lib/threejs/three'
+import THREE from './lib/threejs/three'
 
 import './main.html';
 
@@ -9,6 +11,7 @@ Template.hello.onCreated(function helloOnCreated() {
 
   console.log("test")
   console.log(THREE)
+  //console.log(Box3)
 
 
 
