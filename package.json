@@ -20,5 +20,9 @@
   "homepage": "https://github.com/gbox3d/nwm#readme",
   "dependencies": {
     "nw": "^0.28.0-sdk"
+  },
+  "window": {
+    "width": 640,
+    "height": 480
   }
 }

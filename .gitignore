@@ -32,3 +32,5 @@ node_modules/
 package-lock.json
 
 .idea
+example/threejs/imports/
+meteor/public/

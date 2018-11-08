@@ -7,6 +7,7 @@
 
   {{> hello}}
   {{> info}}
+{{> threejs}}
 </body>
 
 <template name="hello">
@@ -22,4 +23,16 @@
     <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
     <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
+</template>
+
+<template name="threejs">
+  <div> threejs sample </div>
+  <div id='mycanvas' style="
+    margin: auto;
+    width: 320px;height: 240px;" ></div>
+
+  <div id="text-log" >
+    <div class="mouse-pos" ></div>
+  </div>
+
 </template>
